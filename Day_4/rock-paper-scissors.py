@@ -33,7 +33,7 @@ if user_choice >=0 and user_choice<=2:
     print(options[user_choice])
 
 computer_choice = random.randint(0,2)
-print(f"Computer chose:\n{options[computer_choice]}")
+print(f"Computer chose:\n {options[computer_choice]}")
 
 if user_choice>2 and computer_choice<0:
     print("Invalid choice.")
